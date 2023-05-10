@@ -1,0 +1,36 @@
+:root {
+  --primary-font-family: "Nunito", sans-serif;
+}
+
+.title-banner {
+  text-align: center;
+  font-family: var(--primary-font-family);
+  color: white;
+  padding: 50px 400px;
+  background-image: url(img/overlay.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.title-banner h1 {
+  font-size: 72px;
+  font-weight: 700;
+}
+
+.title-banner h2 {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.card-container {
+  padding: 100px;
+}
+
+.recipe-card h3 {
+  font-size: 28px;
+  font-family: var(--primary-font-family);
+  font-weight: 700;
+  color: #272142;
+  line-height: 38px;
+  padding: 20px 0px 50px 0px;
+}
